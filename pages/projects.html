@@ -10,7 +10,7 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin="anonymous">
     <link href="carousel.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
@@ -20,6 +20,7 @@
             integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
             crossorigin="anonymous"></script>
     <link rel="favicon" href="../images/favicon.ico">
+
 </head>
 <body style="background-color: #3d5afe">
     <nav style="z-index: 2; height: 100px; width: 100%"
@@ -41,13 +42,15 @@
             <li class="nav-item">
                 <a class="nav-link" href="./resume.html" style="font-size: 120%; margin-left: 20px">Skills&Abilities</a>
             </li>
+            <li class="nav-item active">
+                <a class="nav-link"
+                   href="#"
+                   style="font-size: 120%; margin-left: 20px">Projects</a>
+            </li>
             <li class="nav-item">
                 <a class="nav-link"
                    onclick="alert('아직 구현되지 않은 부분입니다.');"
-                   style="font-size: 120%; margin-left: 20px">Projects</a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link" href="#" style="font-size: 120%; margin-left: 20px">Award & Experinences</a>
+                   style="font-size: 120%; margin-left: 20px">Award & Experinences</a>
             </li>
         </ul>
     </div>
@@ -77,50 +80,36 @@
     </div>
     <nav id="navbar-example2" style="background-color: white" class="navbar navbar-light">
         <a class="navbar-brand" href="#" style="color:#3d5afe"><h1>Project Introduction</h1></a>
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link" href="#fat">Web</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#mdo">App</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#data">Data Analysis</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#one">VR</a>
-            </li>
-        </ul>
     </nav>
-    <div style="background-color: white; color:#3d5afe " data-spy="scroll"
-         data-target="#navbar-example2" data-offset="0">
-        <h3 id="fat" class="title1">Web</h3>
-        <p class="content1">
-            <h5 class="content1">감정 분석 기반 음식점 추천 웹 어플리케이션, 미미</h5>
-            <h5 class="content1">숙명인을 위한 학과 트랙 추천서비스, SMT</h5>
-            <h5 class="content1">새내기를 위한 수강신청 연습 사이트, 슬기로운 수강신청</h5>
-        </p>
-        <hr/>
-        <h3 id="mdo" class="title1">App</h3>
-        <p class="content1">
-            <h5 class="content1">상처받은 당신을 위한 여행, Sailing Into the Night</h5>
-            <h5 class="content1">어르신들을 위한 키오스크 교육 어플리케이션, 구름이</h5>
-            <h5 class="content1">당신의 내신, 저희가 책임져드립니다! Oh my God</h5>
-            <h5 class="content1">해양 관련 스피드 퀴즈를 귀여운 캐릭터와 함께! Speed Sea! </h5>
-        </p>
-        <hr/>
-        <h3 id="data" class="title1">Data Analysis</h3>
-        <p class="content1">
-        <h5 class="content1">이동성지수와 금융데이터로 본 코로나19 이후의 서울 지역 위험 업종 분석 및 마케팅 전략 제언</h5>
-        <h5 class="content1">기온에 따른 심근경색 예측 모델 제안</h5>
-        <h5 class="content1">특수학교 체육 수업 선정을 위한 서비스</h5>
-        <h5 class="content1">어르신들의 "찰나" 속, 그 기억을 요리해드립니다.</h5>
-        </p>
-        <hr/>
-        <h3 id="one" class="title1">VR</h3>
-        <p class="content1">
-        <h5 class="content1">2D 한붓그리기를, VR 가상세계 속에 담아내다! "Dot to Dot"</h5>
-        </p>
-        <hr/>
+    <div class="card">
+        <div class="card-body">
+            <div class="card-group">
+                <div class="card">
+                    <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+
 </body>
