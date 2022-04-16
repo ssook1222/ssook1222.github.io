@@ -10,7 +10,7 @@
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
           crossorigin="anonymous">
     <link href="carousel.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
             integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
             crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
@@ -81,35 +81,150 @@
     <nav id="navbar-example2" style="background-color: white" class="navbar navbar-light">
         <a class="navbar-brand" href="#" style="color:#3d5afe"><h1>Project Introduction</h1></a>
     </nav>
-    <div class="card">
-        <div class="card-body">
-            <div class="card-group">
-                <div class="card">
-                    <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+    <ul class="nav nav-tabs d-flex justify-content-end" style="background-color: white">
+        <li class="show active">
+            <a class="btn btn-outline-white" href="#WEB" data-toggle="tab">
+                <h4 style="color: #3d5afe">WEB</h4></a></li>
+        <li><a class="btn btn-outline-white" href="#APP" data-toggle="tab">
+            <h4 style="color: #3d5afe">APP</h4></a>
+        </li>
+        <li><a class="btn btn-outline-white" href="#DATA" data-toggle="tab">
+            <h4 style="color: #3d5afe">DATA-ANALYSIS</h4></a>
+        </li>
+        <li><a class="btn btn-outline-white" href="#GAME" data-toggle="tab">
+            <h4 style="color: #3d5afe">GAME</h4></a>
+        </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane fade show in active" id="WEB">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">MIMI</h5>
+                                <p class="card-text">사용자 감정분석 기반 음식점 맞춤 추천 웹 어플리케이션</p>
+                                <a href="#" style="color: black"><small>확인하러 이동</small></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">슬기로운 수강신청</h5>
+                                <p class="card-text">숙명여대 새내기들을 위한 수강신청 웹 사이트</p>
+                                <a href="#" style="color: black"><small>확인하러 이동</small></a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">SMT</h5>
+                                <p class="card-text">숙명인들을 위한 전공트랙 추천 웹 사이트</p>
+                                <a href="#" style="color: black"><small>확인하러 이동</small></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="APP">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card">
-                    <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="DATA">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tab-pane fade" id="GAME">
+            <div class="card">
+                <div class="card-body">
+                    <div class="card-group">
+                        <div class="card">
+                            <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="../images/logo.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
 
 </body>
